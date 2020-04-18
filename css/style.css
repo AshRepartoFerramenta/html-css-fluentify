@@ -1,0 +1,135 @@
+/* INIZIO RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* FINE RESET */
+
+/* INIZIO REGOLE GENERALI */
+.container {
+    width: 1024px;
+    margin: auto;
+}
+body {
+    font-family: 'Muli', sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+.clearfix::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+/* FINE REGOLE GENERALI */
+
+/* INIZIO HEADER */
+header {
+    background-image: url(../img/background-header.png);
+    background-size: 1000px;
+    color: white;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-color: #0b325a;
+    background-position: 110% ,100%;
+}
+header .navigation {
+    padding-top: 10px;
+}
+header .navigation .col {
+    float: left;
+}
+header .navigation .logo {
+    width: 15%;
+}
+header .navigation .menu-center {
+    width: 45%;
+}
+header .navigation .menu-right {
+    width: 40%;
+    text-align: right;
+}
+header .navigation .menu {
+    margin-top: 16px;
+}
+header .navigation .menu li {
+    display: inline-block;
+}
+header .navigation .menu li a {
+    color: white;
+    font-size: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+header .navigation .menu li a:hover {
+    color: green;
+}
+header .navigation .menu li a.login {
+    padding: 7px 12px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+header .navigation .menu li a.menu-item {
+    padding: 10px 12px;
+    background-color: #7fb802;
+    border-radius: 5px;
+}
+/* Inizio regole teaser */
+.teaser {
+  position: absolute;
+  left: 0;
+  top: 30vh;
+  padding: 0 150px;
+  width: 50%;
+}
+
+.teaser h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.teaser a {
+  color: #fff;
+  background: #7fb802;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.teaser a:hover {
+  color: orange;
+}
+/* Fine regole teaser */
+
+/* Inizio banner */
+.banner {
+    padding: 50px;
+    text-align: center;
+    background-color: lightgrey;
+    text-align: center;
+}
+.banner h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: black;
+}
+.banner h3{
+    color: grey;
+    font-size: 20px;
+}
+/* Fine banner */
+
+/* FINE HEADER */
+/* INIZIO MAIN */
+.box {
+    height:200px;
+    margin: auto;
+    color: lightgrey;
+}
+/* FINE MAIN */
